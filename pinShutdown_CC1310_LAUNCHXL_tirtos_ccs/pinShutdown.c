@@ -93,7 +93,7 @@ PIN_Config LedPinTableSd[] = {
 
 /* Wake-up Button pin table */
 PIN_Config ButtonTableWakeUp[] = {
-    //Board_PIN_BUTTON0 | PIN_INPUT_EN | PIN_PULLUP | PINCC26XX_WAKEUP_POSEDGE,
+    Board_PIN_BUTTON0 | PIN_INPUT_EN | PIN_PULLUP | PINCC26XX_WAKEUP_POSEDGE,
     Board_PIN_BUTTON1 | PIN_INPUT_EN | PIN_PULLUP | PINCC26XX_WAKEUP_POSEDGE,
     PIN_TERMINATE                                 /* Terminate list */
 };
